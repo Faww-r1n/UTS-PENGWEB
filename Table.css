@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./asset/Background-fate.jpg'); 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    opacity: 0.2; 
+    z-index: -1; 
+}
+
+.title-table {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+
+.navbar {
+    background-color: #fbf2f2;
+}
+  
+.nav-link {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+}
+
+tr.even {
+    background-color: #f8f9fa; 
+}
+
+tr.odd {
+    background-color: #ffffff; 
+}
+
+tr:hover {
+    background-color: #e2e6ea; 
+}
+
+.Copyright {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+    margin: 0px;
+}
+
+@media (max-width: 768px) {
+    .table-responsive {
+        overflow-x: auto; 
+    }
+    th, td {
+        white-space: nowrap; 
+    }
+}
+

@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./asset/Background-fate.jpg'); 
+  background-size: cover; 
+  background-attachment: fixed; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  opacity: 0.2; 
+  z-index: -1; 
+}
+
+.custom-border {
+  border: solid rgb(181, 181, 181);
+  border-width: 0 1px 0 0;
+}
+
+.side {
+  padding-right: 10px;
+}
+
+.navbar {
+  background-color: #fbf2f2;
+}
+
+.navbar-toggler {
+  border-color: rgba(0, 0, 0, 0.5); 
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: black;
+}
+
+.Sub-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 28px;
+}
+
+.Desc-Join {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.Desc-Join1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.button {
+  background-color: #007BFF;
+  color: white; 
+  border: none;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.list1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: justify;
+  font-size: 14px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 10px;
+}
+
+.Desc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.Desc-servant {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.servant {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card {
+  background-color: #FFF4EA;
+  height: 100%;
+  margin: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card1 {
+  background-color: #FFF4EA;
+}
+
+.card-img-top {
+  height: 400%;
+  object-fit: cover;
+}
+
+.card-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.card-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 11px;
+  text-align: justify;
+}
+
+.col {
+  padding: 0; 
+}
+
+.card1{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.card-text1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.progress {
+  margin-bottom: 10px;
+}
+
+.quotes {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.blockquote-footer {
+  text-align: right;
+}
+
+.Sub-title2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.footer {
+  padding-left: 10px;
+}
+
+.Desc-foot {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.sub-list {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: justify;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.list2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: justify;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.Copyright {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 12px;
+  text-align: center;
+  margin: 0px;
+}
